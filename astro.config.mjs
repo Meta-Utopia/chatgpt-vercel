@@ -12,7 +12,7 @@ import solidJs from "@astrojs/solid-js"
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chatgpt-vercel.github.io',
-  base: '/chatgpt',
+  base: '/',
   integrations: [
     unocss({
       presets: [
